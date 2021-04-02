@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+
+    <!--
+        CSS way 1: Style tag
+        <style>
+            body{
+                color: red;
+            }
+        </style>
+    -->
+
+    <!--
+        CSS way 3: external link
+    -->
+
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
+    <!--
+        CSS way 2: 
+        style=color:"red"
+    -->
     <h1>Welcome to Tushar's component library.</h1>
     <p>Hey! I am Tushar Nagpal and I want to make a library which would make all my projects look good and consistent.</p>
 
@@ -24,10 +43,10 @@
 <h2>@containers</h2>
 
 <h3>#Fluid_Container</h3>
-<div>This is a fluid container which means it will go till the end of page..</div>
+<div class="container">This is a fluid container which means it will go till the end of page..</div>
 
 <h3>#Centered_Container</h3>
-<div>This is a centered container which means it will be in a specified width..</div>
+<div class="container container-center">This is a centered container which means it will be in a specified width..</div>
 
 <hr>
 

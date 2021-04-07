@@ -3,6 +3,7 @@
 :root{
     --primary-color: #34D399;
     --dark-grey: #6B7280;
+    --offwhite: #E5E7EB;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -93,4 +94,18 @@ padding: 0.5rem 1rem;
     padding-top: 1rem;
     font-size: 2rem;
     color: var(--dark-grey);
+}
+
+/** section **/
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+text-align: center;
+
+}
+
+.offwhite{
+    background-color: var(--offwhite);
 }

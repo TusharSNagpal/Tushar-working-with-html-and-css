@@ -109,3 +109,20 @@ text-align: center;
 .offwhite{
     background-color: var(--offwhite);
 }
+
+/** footer **/
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
